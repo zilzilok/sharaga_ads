@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/KMP_substring_search.dir/main.cpp.o  -o KMP_substring_search 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/wagner_fisher.dir/main.cpp.o  -o wagner_fisher 

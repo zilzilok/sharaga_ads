@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/winter_fun.dir/main.cpp.o  -o winter_fun 

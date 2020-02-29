@@ -1,0 +1,9 @@
+3
+git_status
+git_commit
+git_push
+2
+3
+git_stat
+gitstatus
+gt_psh

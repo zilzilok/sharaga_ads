@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="heap_sort" targetName="heap_sort" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c14195a3-88a8-44de-9b3d-5ff3b49781f7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Wr6BzKci0ycCc1ToWkrlmrXjAh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../5/SeSelfDevelopment" />
+  </component>
+  <component name="RunManager">
+    <configuration name="heap_sort" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="heap_sort" TARGET_NAME="heap_sort" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="heap_sort" RUN_TARGET_NAME="heap_sort">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c14195a3-88a8-44de-9b3d-5ff3b49781f7" name="Default Changelist" comment="" />
+      <created>1579895234233</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579895234233</updated>
+      <workItem from="1579895235480" duration="3723000" />
+      <workItem from="1579943541065" duration="6394000" />
+      <workItem from="1579951405762" duration="1447000" />
+      <workItem from="1580234137709" duration="683000" />
+      <workItem from="1582710059766" duration="634000" />
+      <workItem from="1582884236865" duration="133000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="715" y="311" key="FileChooserDialogImpl" timestamp="1582884368833">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state x="715" y="311" key="FileChooserDialogImpl/63.27.1857.1053@63.27.1857.1053" timestamp="1582884368833" />
+    <state width="1811" height="275" key="GridCell.Tab.0.bottom" timestamp="1579950100627">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state width="1811" height="275" key="GridCell.Tab.0.bottom/63.27.1857.1053@63.27.1857.1053" timestamp="1579950100627" />
+    <state width="1811" height="275" key="GridCell.Tab.0.center" timestamp="1579950100627">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state width="1811" height="275" key="GridCell.Tab.0.center/63.27.1857.1053@63.27.1857.1053" timestamp="1579950100627" />
+    <state width="1811" height="275" key="GridCell.Tab.0.left" timestamp="1579950100626">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state width="1811" height="275" key="GridCell.Tab.0.left/63.27.1857.1053@63.27.1857.1053" timestamp="1579950100626" />
+    <state width="1811" height="275" key="GridCell.Tab.0.right" timestamp="1579950100627">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state width="1811" height="275" key="GridCell.Tab.0.right/63.27.1857.1053@63.27.1857.1053" timestamp="1579950100627" />
+    <state width="1811" height="340" key="GridCell.Tab.1.bottom" timestamp="1579949817751">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state width="1811" height="340" key="GridCell.Tab.1.bottom/63.27.1857.1053@63.27.1857.1053" timestamp="1579949817751" />
+    <state width="1811" height="340" key="GridCell.Tab.1.center" timestamp="1579949817750">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state width="1811" height="340" key="GridCell.Tab.1.center/63.27.1857.1053@63.27.1857.1053" timestamp="1579949817750" />
+    <state width="1811" height="340" key="GridCell.Tab.1.left" timestamp="1579949817750">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state width="1811" height="340" key="GridCell.Tab.1.left/63.27.1857.1053@63.27.1857.1053" timestamp="1579949817750" />
+    <state width="1811" height="340" key="GridCell.Tab.1.right" timestamp="1579949817751">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state width="1811" height="340" key="GridCell.Tab.1.right/63.27.1857.1053@63.27.1857.1053" timestamp="1579949817751" />
+    <state x="647" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1582884304784">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state x="647" y="381" key="com.intellij.ide.util.TipDialog/63.27.1857.1053@63.27.1857.1053" timestamp="1582884304784" />
+    <state x="654" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1579897002477">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state x="654" y="259" width="672" height="678" key="search.everywhere.popup/63.27.1857.1053@63.27.1857.1053" timestamp="1579897002477" />
+  </component>
+</project>

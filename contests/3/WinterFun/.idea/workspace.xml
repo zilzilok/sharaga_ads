@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="merge_sort" targetName="winter_fun" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7ded6d5b-e20d-4fa8-9ee2-467d074f2060" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1XCOES9jZxe8s5M9ibJffy7MhGN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../4/A" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="winter_fun" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="merge_sort" TARGET_NAME="winter_fun" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="merge_sort" RUN_TARGET_NAME="winter_fun">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ded6d5b-e20d-4fa8-9ee2-467d074f2060" name="Default Changelist" comment="" />
+      <created>1580546497566</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580546497566</updated>
+      <workItem from="1580546499353" duration="6880000" />
+      <workItem from="1580651928924" duration="5292000" />
+      <workItem from="1580729180927" duration="684000" />
+      <workItem from="1580757887362" duration="131000" />
+      <workItem from="1581369460005" duration="609000" />
+      <workItem from="1581374248374" duration="4435000" />
+      <workItem from="1581419209849" duration="13183000" />
+      <workItem from="1581530160154" duration="23000" />
+      <workItem from="1581677431202" duration="8573000" />
+      <workItem from="1581711354839" duration="508000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="769" y="300" width="542" height="520" key="FileChooserDialogImpl" timestamp="1581711861207">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state x="769" y="300" width="542" height="520" key="FileChooserDialogImpl/63.27.1857.1053@63.27.1857.1053" timestamp="1581711861207" />
+    <state width="1809" height="339" key="GridCell.Tab.0.bottom" timestamp="1581689517941">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state width="1809" height="339" key="GridCell.Tab.0.bottom/63.27.1857.1053@63.27.1857.1053" timestamp="1581689517941" />
+    <state width="1809" height="339" key="GridCell.Tab.0.center" timestamp="1581689517939">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state width="1809" height="339" key="GridCell.Tab.0.center/63.27.1857.1053@63.27.1857.1053" timestamp="1581689517939" />
+    <state width="1809" height="339" key="GridCell.Tab.0.left" timestamp="1581689517934">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state width="1809" height="339" key="GridCell.Tab.0.left/63.27.1857.1053@63.27.1857.1053" timestamp="1581689517934" />
+    <state width="1809" height="339" key="GridCell.Tab.0.right" timestamp="1581689517940">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state width="1809" height="339" key="GridCell.Tab.0.right/63.27.1857.1053@63.27.1857.1053" timestamp="1581689517940" />
+    <state width="1809" height="339" key="GridCell.Tab.1.bottom" timestamp="1581689517945">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state width="1809" height="339" key="GridCell.Tab.1.bottom/63.27.1857.1053@63.27.1857.1053" timestamp="1581689517945" />
+    <state width="1809" height="339" key="GridCell.Tab.1.center" timestamp="1581689517943">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state width="1809" height="339" key="GridCell.Tab.1.center/63.27.1857.1053@63.27.1857.1053" timestamp="1581689517943" />
+    <state width="1809" height="339" key="GridCell.Tab.1.left" timestamp="1581689517942">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state width="1809" height="339" key="GridCell.Tab.1.left/63.27.1857.1053@63.27.1857.1053" timestamp="1581689517942" />
+    <state width="1809" height="339" key="GridCell.Tab.1.right" timestamp="1581689517944">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state width="1809" height="339" key="GridCell.Tab.1.right/63.27.1857.1053@63.27.1857.1053" timestamp="1581689517944" />
+    <state x="503" y="188" width="977" height="737" key="SettingsEditor" timestamp="1581689480894">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state x="503" y="188" width="977" height="737" key="SettingsEditor/63.27.1857.1053@63.27.1857.1053" timestamp="1581689480894" />
+    <state x="641" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1581711355501">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state x="641" y="380" key="com.intellij.ide.util.TipDialog/63.27.1857.1053@63.27.1857.1053" timestamp="1581711355501" />
+    <state x="655" y="252" key="run.anything.popup" timestamp="1581420139888">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state x="655" y="252" key="run.anything.popup/63.27.1857.1053@63.27.1857.1053" timestamp="1581420139888" />
+    <state x="604" y="259" width="773" height="678" key="search.everywhere.popup" timestamp="1581679639627">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state x="604" y="259" width="773" height="678" key="search.everywhere.popup/63.27.1857.1053@63.27.1857.1053" timestamp="1581679639627" />
+  </component>
+</project>

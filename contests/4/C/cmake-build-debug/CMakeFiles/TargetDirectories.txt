@@ -1,0 +1,3 @@
+/home/zilzilok/sharaga/proga/ads/contests/4/C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/zilzilok/sharaga/proga/ads/contests/4/C/cmake-build-debug/CMakeFiles/KMP_substring_search.dir
+/home/zilzilok/sharaga/proga/ads/contests/4/C/cmake-build-debug/CMakeFiles/edit_cache.dir

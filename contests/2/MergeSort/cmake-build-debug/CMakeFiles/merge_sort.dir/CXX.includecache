@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zilzilok/sharaga/proga/ads/contests/2/MergeSort/MergeSort.h
+
+/home/zilzilok/sharaga/proga/ads/contests/2/MergeSort/ReadWriter.h
+iostream
+-
+fstream
+-
+
+/home/zilzilok/sharaga/proga/ads/contests/2/MergeSort/main.cpp
+ReadWriter.h
+/home/zilzilok/sharaga/proga/ads/contests/2/MergeSort/ReadWriter.h
+MergeSort.h
+/home/zilzilok/sharaga/proga/ads/contests/2/MergeSort/MergeSort.h
+

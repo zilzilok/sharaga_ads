@@ -1,0 +1,3 @@
+/home/zilzilok/sharaga/proga/ads/contests/4/D/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/zilzilok/sharaga/proga/ads/contests/4/D/cmake-build-debug/CMakeFiles/palindrome_search.dir
+/home/zilzilok/sharaga/proga/ads/contests/4/D/cmake-build-debug/CMakeFiles/edit_cache.dir

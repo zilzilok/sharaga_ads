@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zilzilok/sharaga/proga/ads/contests/3/QuickSort middle/ReadWriter.h
+iostream
+-
+fstream
+-
+
+/home/zilzilok/sharaga/proga/ads/contests/3/QuickSort middle/main.cpp
+ReadWriter.h
+/home/zilzilok/sharaga/proga/ads/contests/3/QuickSort middle/ReadWriter.h
+

@@ -1,0 +1,3 @@
+/home/zilzilok/sharaga/proga/ads/contests/5/DamLevDistance/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/zilzilok/sharaga/proga/ads/contests/5/DamLevDistance/cmake-build-debug/CMakeFiles/damerau_levenshtein_distance.dir
+/home/zilzilok/sharaga/proga/ads/contests/5/DamLevDistance/cmake-build-debug/CMakeFiles/edit_cache.dir

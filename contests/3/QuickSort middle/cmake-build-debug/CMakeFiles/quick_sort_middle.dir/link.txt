@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/quick_sort_middle.dir/main.cpp.o  -o quick_sort_middle 

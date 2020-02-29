@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="substrings_faces" targetName="substrings_faces" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7c051e0e-2fce-437d-9f99-55e2a2ae94c8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+    <option name="clangWarnings" value="-Wno-unused-variable,-Werror=implicit-function-declaration,-Wshadow,-Wno-shadow-field-in-constructor-modified,-Wno-shadow-ivar,-Wno--Wstring-plus-int" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1XoUIwHDF63wHY7cJUerMyA7VXx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../B" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
+  </component>
+  <component name="RunManager">
+    <configuration name="substrings_faces" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="substrings_faces" TARGET_NAME="substrings_faces" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="substrings_faces" RUN_TARGET_NAME="substrings_faces">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="3" Folder0="$PROJECT_DIR$/../../../../../dic_for_ide/ru" Folder1="$PROJECT_DIR$/../../../../../dic_for_ide/ru" Folder2="$PROJECT_DIR$/../../../../../dic_for_ide/ru" CustomDictionaries="3" CustomDictionary0="$PROJECT_DIR$/../../../../../dic_for_ide/ru/ru_names4.dic" CustomDictionary1="$PROJECT_DIR$/../../../../../dic_for_ide/ru/ru_gen4.dic" CustomDictionary2="$PROJECT_DIR$/../../../../../dic_for_ide/ru/ru_phys4.dic" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="project-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c051e0e-2fce-437d-9f99-55e2a2ae94c8" name="Default Changelist" comment="" />
+      <created>1581711864446</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581711864446</updated>
+      <workItem from="1581711865678" duration="12063000" />
+      <workItem from="1582283334190" duration="57000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="586" y="215" width="800" height="684" key="#Inspections" timestamp="1581776246832">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state x="586" y="215" width="800" height="684" key="#Inspections/63.27.1857.1053@63.27.1857.1053" timestamp="1581776246832" />
+    <state x="715" y="314" key="FileChooserDialogImpl" timestamp="1582283389262">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state x="715" y="314" key="FileChooserDialogImpl/63.27.1857.1053@63.27.1857.1053" timestamp="1582283389262" />
+    <state width="1807" height="338" key="GridCell.Tab.0.bottom" timestamp="1581781517087">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state width="1807" height="338" key="GridCell.Tab.0.bottom/63.27.1857.1053@63.27.1857.1053" timestamp="1581781517087" />
+    <state width="1807" height="338" key="GridCell.Tab.0.center" timestamp="1581781517087">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state width="1807" height="338" key="GridCell.Tab.0.center/63.27.1857.1053@63.27.1857.1053" timestamp="1581781517087" />
+    <state width="1807" height="338" key="GridCell.Tab.0.left" timestamp="1581781517086">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state width="1807" height="338" key="GridCell.Tab.0.left/63.27.1857.1053@63.27.1857.1053" timestamp="1581781517086" />
+    <state width="1807" height="338" key="GridCell.Tab.0.right" timestamp="1581781517087">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state width="1807" height="338" key="GridCell.Tab.0.right/63.27.1857.1053@63.27.1857.1053" timestamp="1581781517087" />
+    <state width="1807" height="338" key="GridCell.Tab.1.bottom" timestamp="1581781517088">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state width="1807" height="338" key="GridCell.Tab.1.bottom/63.27.1857.1053@63.27.1857.1053" timestamp="1581781517088" />
+    <state width="1807" height="338" key="GridCell.Tab.1.center" timestamp="1581781517087">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state width="1807" height="338" key="GridCell.Tab.1.center/63.27.1857.1053@63.27.1857.1053" timestamp="1581781517087" />
+    <state width="1807" height="338" key="GridCell.Tab.1.left" timestamp="1581781517087">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state width="1807" height="338" key="GridCell.Tab.1.left/63.27.1857.1053@63.27.1857.1053" timestamp="1581781517087" />
+    <state width="1807" height="338" key="GridCell.Tab.1.right" timestamp="1581781517088">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state width="1807" height="338" key="GridCell.Tab.1.right/63.27.1857.1053@63.27.1857.1053" timestamp="1581781517088" />
+    <state x="503" y="188" width="977" height="737" key="SettingsEditor" timestamp="1581769056463">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state x="503" y="188" width="977" height="737" key="SettingsEditor/63.27.1857.1053@63.27.1857.1053" timestamp="1581769056463" />
+    <state x="655" y="252" width="672" height="677" key="run.anything.popup" timestamp="1581769201125">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state x="655" y="252" width="672" height="677" key="run.anything.popup/63.27.1857.1053@63.27.1857.1053" timestamp="1581769201125" />
+    <state x="604" y="259" width="773" height="678" key="search.everywhere.popup" timestamp="1581769030593">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state x="604" y="259" width="773" height="678" key="search.everywhere.popup/63.27.1857.1053@63.27.1857.1053" timestamp="1581769030593" />
+  </component>
+</project>

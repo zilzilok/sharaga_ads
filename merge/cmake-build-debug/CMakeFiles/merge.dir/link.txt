@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/merge.dir/main.cpp.o  -o merge 

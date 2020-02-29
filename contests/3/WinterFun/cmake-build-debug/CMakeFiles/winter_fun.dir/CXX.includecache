@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zilzilok/sharaga/proga/ads/contests/3/WinterFun/ReadWriter.h
+iostream
+-
+fstream
+-
+Student_and_Ski.h
+/home/zilzilok/sharaga/proga/ads/contests/3/WinterFun/Student_and_Ski.h
+
+/home/zilzilok/sharaga/proga/ads/contests/3/WinterFun/Student_and_Ski.h
+
+/home/zilzilok/sharaga/proga/ads/contests/3/WinterFun/main.cpp
+ReadWriter.h
+/home/zilzilok/sharaga/proga/ads/contests/3/WinterFun/ReadWriter.h
+

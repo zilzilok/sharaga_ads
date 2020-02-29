@@ -1,0 +1,3 @@
+/home/zilzilok/sharaga/proga/ads/contests/4/A/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/zilzilok/sharaga/proga/ads/contests/4/A/cmake-build-debug/CMakeFiles/substrings_faces.dir
+/home/zilzilok/sharaga/proga/ads/contests/4/A/cmake-build-debug/CMakeFiles/edit_cache.dir

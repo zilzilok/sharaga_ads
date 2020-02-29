@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/substrings_faces.dir/main.cpp.o  -o substrings_faces 

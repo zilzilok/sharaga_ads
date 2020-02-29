@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/se_self_development.dir/main.cpp.o  -o se_self_development 

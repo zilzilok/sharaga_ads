@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zilzilok/sharaga/proga/ads/contests/1/Цифровая сортировка/ReadWriter.h
+iostream
+-
+fstream
+-
+
+/home/zilzilok/sharaga/proga/ads/contests/1/Цифровая сортировка/main.cpp
+ReadWriter.h
+/home/zilzilok/sharaga/proga/ads/contests/1/Цифровая сортировка/ReadWriter.h
+
