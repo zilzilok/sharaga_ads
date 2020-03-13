@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/huffman.dir/main.cpp.o  -o huffman 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/lz77_decode.dir/main.cpp.o  -o lz77_decode 

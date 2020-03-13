@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zilzilok/sharaga/proga/sharaga_ads/contests/7/LZ77_decode/main.cpp
+iostream
+-
+fstream
+-
+stdlib.h
+-
+vector
+-
+
