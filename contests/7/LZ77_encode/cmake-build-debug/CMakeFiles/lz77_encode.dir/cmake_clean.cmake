@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lz77_encode.dir/main.cpp.o"
-  "lz77_encode"
+  "CMakeFiles/lz77_encode.dir/main.cpp.obj"
+  "liblz77_encode.dll.a"
+  "lz77_encode.exe"
+  "lz77_encode.exe.manifest"
   "lz77_encode.pdb"
 )
 
