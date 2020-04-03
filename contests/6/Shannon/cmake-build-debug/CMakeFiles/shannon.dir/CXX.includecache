@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/zilzilok/sharaga/proga/sharaga_ads/contests/6/Shannon/main.cpp
+C:/sharaga/sharaga_ads/contests/6/Shannon/main.cpp
 iostream
 -
 fstream
@@ -14,5 +14,9 @@ fstream
 stdlib.h
 -
 vector
+-
+map
+-
+iterator
 -
 

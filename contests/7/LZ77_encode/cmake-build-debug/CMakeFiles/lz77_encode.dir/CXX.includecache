@@ -11,8 +11,14 @@ iostream
 -
 fstream
 -
-stdlib.h
+cstdlib
 -
 vector
+-
+climits
+-
+cmath
+-
+algorithm
 -
 

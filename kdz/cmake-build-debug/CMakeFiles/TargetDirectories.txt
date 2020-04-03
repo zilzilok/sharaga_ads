@@ -1,0 +1,5 @@
+C:/sharaga/sharaga_ads/kdz/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/sharaga/sharaga_ads/kdz/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/sharaga/sharaga_ads/kdz/cmake-build-debug/src/CMakeFiles/edit_cache.dir
+C:/sharaga/sharaga_ads/kdz/cmake-build-debug/src/CMakeFiles/kdz.dir
+C:/sharaga/sharaga_ads/kdz/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir

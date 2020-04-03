@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/shannon.dir/main.cpp.o"
-  "shannon"
+  "CMakeFiles/shannon.dir/main.cpp.obj"
+  "libshannon.dll.a"
+  "shannon.exe"
+  "shannon.exe.manifest"
   "shannon.pdb"
 )
 

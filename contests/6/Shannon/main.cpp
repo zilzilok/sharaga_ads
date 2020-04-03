@@ -1,121 +1,101 @@
-
 #include <iostream>
 #include <fstream>
 #include <stdlib.h>
 #include <vector>
+#include <map>
+#include <iterator>
 
 using namespace std;
-class Node{
-public:
-    Node(int val){
-        value = val;
-    }
 
-    int value;
-    string code;
-};
-
+typedef map<char, pair<int, string>> custom_map;
+typedef custom_map::iterator custom_iterator;
 
 class ShannonFano {
 public:
-     ~ShannonFano(){
-         for(Node* node : chances)
-             delete node;
-     }
+    ~ShannonFano() {}
 
-    ShannonFano()// можно изменить что бы принимал на вход количество элементов
-    {
-
+    ShannonFano(string &input) {
+        for (char &ch : input) {
+            if (dict.find(ch) == dict.end())
+                dict[ch] = make_pair(1, "");
+            else
+                dict[ch].first++;
+        }
     }
 
-    int findMedian(int left, int right){
-        if(right - left >= 2) {
-            int lSum1 = chances[left]->value;
+    custom_iterator findMedian(custom_iterator left, custom_iterator right) {
+        if (distance(left, right) >= 2) {
+            int lSum1 = (*left).second.first;
             int rSum1 = 0;
-            for (int i = left + 1; i <= right; ++i) {
-                rSum1 += chances[i]->value;
+            for (custom_iterator it = next(left, 1); it != next(right, 1); ++it) {
+                rSum1 += (it)->second.first;
             }
             int abs1 = abs(lSum1 - rSum1);
 
             int lSum2 = lSum1, rSum2 = rSum1, abs2, dif = 1;
-            while(left + dif != right) {
-                lSum2 += chances[left + dif]->value;
-                rSum2 -= chances[left + dif]->value;
+
+            while (next(left, dif) != right) {
+                int tmp = (*next(left, dif)).second.first;
+                lSum2 += tmp;
+                rSum2 -= tmp;
                 abs2 = abs(lSum2 - rSum2);
 
-                if(abs1 <= abs2)
+                if (abs1 <= abs2)
                     break;
 
                 abs1 = abs2;
                 dif++;
             }
-            return left + dif - 1;
+            return next(left, dif - 1);
         }
         return left;
     }
 
-    void buildRecursive(int left, int right){
-        if(left != right) {
-            int med = findMedian(left, right);
-            for (int i = left; i <= med; ++i) {
-                chances[i]->code += "0";
+    void generate(custom_iterator left, custom_iterator right) {
+        if (left != right) {
+            custom_iterator med = findMedian(left, right);
+            for (custom_iterator it = left; it != next(med, 1); ++it) {
+                (*it).second.second += "0";
             }
-            buildRecursive(left, med);
+            generate(left, med);
 
-            for (int i = med + 1; i <= right; ++i) {
-                chances[i]->code += "1";
+            for (custom_iterator it = next(med, 1); it != next(right, 1); ++it) {
+                (*it).second.second += "1";
             }
-            buildRecursive(med + 1, right);
+            generate(next(med, 1), right);
         }
     }
 
-    void build() {
-        // запускает алгоритм (после того как были добавлены все элементы)
-        buildRecursive(0, chances.size() - 1);
+    void generate() {
+        generate(dict.begin(), next(dict.end(), -1));
     }
 
-    void addChance(int chance) {
-        // добавляет элемент в список (дерево, все зависит от реализации)
-        chances.push_back(new Node(chance));
-    }
-
-    string get(int i) {
-        // выдает битовый код i символа
-        return chances[i]->code;
+    void print(fstream &fout) {
+        for (auto &it : dict)
+            fout << it.first << "\t" << it.second.first << " " << it.second.second << "\n";
     }
 
 private:
-    vector<Node*> chances;
-
+    custom_map dict;
 };
 
 
 int main() {
-
-    int n;
-    ShannonFano *shf = new ShannonFano();
-
     fstream fin;
     fin.open("input.txt", ios::in);
     if (fin.is_open()) {
-        fin >> n;
-        for (int i = 0; i < n; i++) {
-            int x;
-            fin >> x;
-            shf->addChance(x);
-        }
-
+        string str;
+        getline(fin, str);
         fin.close();
 
-        shf->build();
+        ShannonFano *shf = new ShannonFano(str);
+        shf->generate();
+
         fstream fout;
         fout.open("output.txt", ios::out);
-        for (int i = 0; i < n; i++) {
-            fout << shf->get(i) << (i == n - 1 ? "" : " ");
-        }
+        shf->print(fout);
         fout.close();
         delete shf;
-
     }
     return 0;
 }

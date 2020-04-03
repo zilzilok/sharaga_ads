@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zilzilok/sharaga/proga/sharaga_ads/contests/6/Shannon/main.cpp" "/home/zilzilok/sharaga/proga/sharaga_ads/contests/6/Shannon/cmake-build-debug/CMakeFiles/shannon.dir/main.cpp.o"
+  "C:/sharaga/sharaga_ads/contests/6/Shannon/main.cpp" "C:/sharaga/sharaga_ads/contests/6/Shannon/cmake-build-debug/CMakeFiles/shannon.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

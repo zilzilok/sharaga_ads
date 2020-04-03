@@ -1,0 +1,3 @@
+C:\Users\USER\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6911.21\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\subseq_template_text.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\subseq_template_text.dir/objects.a @CMakeFiles\subseq_template_text.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE -g   -Wl,--whole-archive CMakeFiles\subseq_template_text.dir/objects.a -Wl,--no-whole-archive  -o subseq_template_text.exe -Wl,--out-implib,libsubseq_template_text.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\subseq_template_text.dir\linklibs.rsp

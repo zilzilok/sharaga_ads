@@ -1,0 +1,1 @@
+add_executable(kdz main.cpp FileArchiver.h FileArchiver.cpp Algorithm.h Shannon.cpp Lempel.cpp)

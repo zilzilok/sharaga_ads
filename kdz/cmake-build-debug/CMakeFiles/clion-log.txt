@@ -1,0 +1,4 @@
+C:\Users\USER\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6911.21\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\sharaga\sharaga_ads\kdz
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/sharaga/sharaga_ads/kdz/cmake-build-debug
