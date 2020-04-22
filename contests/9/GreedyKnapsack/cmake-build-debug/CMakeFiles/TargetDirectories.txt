@@ -1,0 +1,3 @@
+C:/sharaga/sharaga_ads/contests/9/GreedyKnapsack/cmake-build-debug/CMakeFiles/backpack_recovery_greedy.dir
+C:/sharaga/sharaga_ads/contests/9/GreedyKnapsack/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/sharaga/sharaga_ads/contests/9/GreedyKnapsack/cmake-build-debug/CMakeFiles/rebuild_cache.dir

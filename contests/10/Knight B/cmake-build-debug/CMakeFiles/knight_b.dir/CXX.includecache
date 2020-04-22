@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/sharaga/sharaga_ads/contests/10/Knight B/Node.h
+string
+-
+vector
+-
+
+C:/sharaga/sharaga_ads/contests/10/Knight B/ReadWriter.cpp
+fstream
+-
+exception
+-
+Node.h
+C:/sharaga/sharaga_ads/contests/10/Knight B/Node.h
+
+C:/sharaga/sharaga_ads/contests/10/Knight B/main.cpp
+stack
+-
+algorithm
+-
+ReadWriter.cpp
+C:/sharaga/sharaga_ads/contests/10/Knight B/ReadWriter.cpp
+

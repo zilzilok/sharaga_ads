@@ -1,0 +1,3 @@
+C:/sharaga/sharaga_ads/contests/10/Knight B/cmake-build-debug/CMakeFiles/knight_b.dir
+C:/sharaga/sharaga_ads/contests/10/Knight B/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/sharaga/sharaga_ads/contests/10/Knight B/cmake-build-debug/CMakeFiles/rebuild_cache.dir

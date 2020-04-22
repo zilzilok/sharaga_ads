@@ -1,0 +1,3 @@
+C:\Users\USER\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6911.21\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\knight.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\knight.dir/objects.a @CMakeFiles\knight.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE -g   -Wl,--whole-archive CMakeFiles\knight.dir/objects.a -Wl,--no-whole-archive  -o knight.exe -Wl,--out-implib,libknight.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\knight.dir\linklibs.rsp

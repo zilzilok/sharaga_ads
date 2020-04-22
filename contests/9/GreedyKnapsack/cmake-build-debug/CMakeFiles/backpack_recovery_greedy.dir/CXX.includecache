@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/sharaga/sharaga_ads/contests/9/GreedyKnapsack/ReadWriter.h
+iostream
+-
+fstream
+-
+string
+-
+vector
+-
+algorithm
+-
+
+C:/sharaga/sharaga_ads/contests/9/GreedyKnapsack/main.cpp
+ReadWriter.h
+C:/sharaga/sharaga_ads/contests/9/GreedyKnapsack/ReadWriter.h
+

@@ -1,0 +1,28 @@
+1 Vladislav Smith
+2 Tarja Turunen
+3 Will Smith
+4 Zeus
+5 Fishmaster
+6 Chuck Norris
+7 King Leonidas
+8 Steven Seagull
+9 Swiborg
+10 Alexander Abdulov
+11 Tim
+12 Nils Patrik Johansson
+#
+1 2
+1 3
+2 7
+3 7
+7 11
+11 12
+2 4
+2 5
+3 5
+3 6
+4 8
+4 9
+6 10
+#
+3
