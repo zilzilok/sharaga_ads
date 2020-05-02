@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/sharaga/sharaga_ads/contests/11/A/main.cpp
+iostream
+-
+fstream
+-
+string
+-
+vector
+-
+stack
+-
+algorithm
+-
+

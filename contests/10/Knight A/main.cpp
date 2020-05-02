@@ -15,7 +15,6 @@ void solve(std::vector<Node> &graph, int start, std::vector<std::string> &result
 
     while (!q.empty()) {
         std::vector<Node> neighbours;
-        std::vector<std::string> neighboursNames;
 
         while (!q.empty()) {
             *curr = q.front();
@@ -24,12 +23,15 @@ void solve(std::vector<Node> &graph, int start, std::vector<std::string> &result
                 if (!neighbour->visited) {
                     neighbour->visited = true;
                     neighbours.push_back(*neighbour);
-                    neighboursNames.push_back(neighbour->name);
                 }
             }
         }
-        for (Node &node : neighbours)
-            q.push(node);
+
+        std::vector<std::string> neighboursNames;
+        for (Node &neighbour : neighbours){
+            neighboursNames.push_back(neighbour.name);
+            q.push(neighbour);
+        }
 
         std::sort(neighboursNames.begin(), neighboursNames.end());
         for (std::string &name : neighboursNames)
