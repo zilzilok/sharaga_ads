@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/sharaga/sharaga_ads/contests/12/Prim/Edge.h
+string
+-
+
+C:/sharaga/sharaga_ads/contests/12/Prim/ReadWriter.h
+Edge.h
+C:/sharaga/sharaga_ads/contests/12/Prim/Edge.h
+iostream
+-
+fstream
+-
+vector
+-
+algorithm
+-
+
+C:/sharaga/sharaga_ads/contests/12/Prim/main.cpp
+ReadWriter.h
+C:/sharaga/sharaga_ads/contests/12/Prim/ReadWriter.h
+queue
+-
+climits
+-
+

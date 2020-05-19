@@ -5,31 +5,25 @@
 
 using namespace std;
 
-// Будем использовать для удобства реализацию Union Find
-
-int findSet(const vector<pair<int, int>> &parentsAndKeys, int i) {
-    if (i == parentsAndKeys[i].first) return i;
-    return findSet(parentsAndKeys, parentsAndKeys[i].first);
+bool compare(const Edge &e1, const Edge &e2) {
+    return e1.W < e2.W;
 }
 
-// Доп функция для удобства нахождения сразу двух значений
-void findSets(const vector<pair<int, int>> &parentsAndKeys, int &a, int &b, int i, int j) {
-    a = findSet(parentsAndKeys, i);
-    b = findSet(parentsAndKeys, j);
+// Будем использовать для удобства простейшую реализацию Union Find
+
+int findSet(const vector<int>& parents, int a){
+    if(a == parents[a]) return a;
+    return findSet(parents, parents[a]);
 }
 
-// Union по ключу
-void unionSet(vector<pair<int, int>> &parentsAndKeys, int i, int j) {
-    int a, b;
-    findSets(parentsAndKeys, a, b, i, j);
-    if (parentsAndKeys[a].second < parentsAndKeys[b].second)
-        parentsAndKeys[a].first = b;
-    else if (parentsAndKeys[a].second != parentsAndKeys[b].second)
-        parentsAndKeys[b].first = a;
-    else {
-        parentsAndKeys[b].first = a;
-        parentsAndKeys[a].second++;
+bool unionSet(vector<int>& parents, int a, int b){
+    a = findSet(parents, a);
+    b = findSet(parents, b);
+    if(a != b){
+        parents[b] = a;
+        return true;
     }
+    return false;
 }
 
 //Основной метод решения задачи, параметры:
@@ -41,35 +35,14 @@ void solve(int N, int M, vector<Edge> &edges, vector<Edge> &result) {
     //Советую разделить решение на логические блоки
     //Можно использовать любые другие структуры, но затем скопировать ответ в структуру Edge для записи результата в файл.
     //Также можно добавить любые необходимые компараторы для предложенного класса Edge, так как все методы и поля публичные.
-    vector<pair<int, int>> parentsAndKeys(N);
-    vector<int> minEdges(N, -1);
+    vector<int> parents(N);
     for (int i = 0; i < N; ++i) {
-        parentsAndKeys[i].first = i;
+        parents[i] = i;
     }
-    int count = N;
-    while (count != 1) {
-        fill(minEdges.begin(), minEdges.end(), -1);
-        for (int i = 0; i < M; ++i) {
-            int a, b;
-            findSets(parentsAndKeys, a, b, edges[i].A, edges[i].B);
-            if (a != b) {
-                // Находим минмальный вес ребра, инцидентных вершинам
-                if (minEdges[a] == -1 || edges[minEdges[a]].W > edges[i].W) minEdges[a] = i;
-                if (minEdges[b] == -1 || edges[minEdges[b]].W > edges[i].W) minEdges[b] = i;
-            }
-        }
-        // Добавляем ближайшое ребро к MST, если он еще не добавлен
-        for (int i = 0; i < N; ++i) {
-            if (minEdges[i] != -1) {
-                int a, b;
-                findSets(parentsAndKeys, a, b, edges[minEdges[i]].A, edges[minEdges[i]].B);
-                if (a != b) {
-                    result.push_back(edges[minEdges[i]]);
-                    unionSet(parentsAndKeys, a, b);
-                    count--;
-                }
-            }
-        }
+    sort(edges.begin(), edges.end(), compare);
+    for (Edge &edge : edges) {
+        if(unionSet(parents, edge.A, edge.B))
+            result.push_back(edge);
     }
 }
 
