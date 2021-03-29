@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zilzilok/sharaga/proga/ads/contests/2/HeapSort/main.cpp" "/home/zilzilok/sharaga/proga/ads/contests/2/HeapSort/cmake-build-debug/CMakeFiles/heap_sort.dir/main.cpp.o"
+  "C:/sharaga/sharaga_ads/contests/2/HeapSort/main.cpp" "C:/sharaga/sharaga_ads/contests/2/HeapSort/cmake-build-debug/CMakeFiles/heap_sort.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

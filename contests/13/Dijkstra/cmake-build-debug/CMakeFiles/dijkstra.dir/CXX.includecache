@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/sharaga/sharaga_ads/contests/13/Dijkstra/Edge.h
+string
+-
+
+C:/sharaga/sharaga_ads/contests/13/Dijkstra/ReadWriter.h
+Edge.h
+C:/sharaga/sharaga_ads/contests/13/Dijkstra/Edge.h
+iostream
+-
+fstream
+-
+vector
+-
+
+C:/sharaga/sharaga_ads/contests/13/Dijkstra/main.cpp
+ReadWriter.h
+C:/sharaga/sharaga_ads/contests/13/Dijkstra/ReadWriter.h
+climits
+-
+
